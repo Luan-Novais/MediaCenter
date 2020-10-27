@@ -139,3 +139,11 @@ nav a:hover{
     font-size: 13px;
     text-decoration: none;
 }
+.hours{
+    border-bottom: 1px solid #f1ecec;
+    padding: 2px;
+}
+
+.hours span{
+    float: right;
+}
