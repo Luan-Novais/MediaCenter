@@ -1,5 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 body{
@@ -146,4 +147,69 @@ nav a:hover{
 
 .hours span{
     float: right;
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+#geral section{
+    flex: 2;
+}
+
+#geral aside{
+    flex: 1;
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_titule_text{
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar{
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.widget_bory{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.departments{
+    background-color: #36a9e1;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.text,
+.imgmake{
+    width: auto;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #727272;
+}
+
+.imgmake{
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+}
+
+.imgmake span,
+.imgmake a{
+    margin-left: 10px;
 }
