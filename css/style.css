@@ -111,6 +111,9 @@ nav a:hover{
 }
 
 .banner1,
+.fm_1,
+.fm_2,
+.fm_3,
 .banner2,
 .banner3{
     flex: 1;
@@ -118,14 +121,17 @@ nav a:hover{
     padding: 20px;
 }
 
-.banner1{
+.banner1,
+.fm_1{
     background: #39aae1;
 }
 
-.banner2{
+.banner2,
+.fm_2{
     background: #0079c7;
 }
-.banner3{
+.banner3,
+.fm_3{
     background: #2b4c99;
 }
 
@@ -278,4 +284,87 @@ article .news_resume{
 .imgmake span,
 .imgmake a{
     margin-left: 10px;
+}
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu{
+    display: flex;
+    flex: 1;
+}
+
+.fm_1,
+.fm_2,
+.fm_3{
+    flex: 1;
+}
+
+.flexcolumn{
+    flex-direction: column;
+}
+
+.footer_area{
+    display: flex;
+    color: #FFF;
+}
+
+.footer_areaitem{
+    flex: 1;
+}
+
+footer .widget_titule_text{
+    color: #FFF;
+}
+
+.fm_title{
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.footer_menu a{
+    color: #FFF;
+}
+
+.footer_copy{
+    border-top: 1px solid #2C2C2C;
+    height: 40px;
+    line-height: 40px;
+    color: #5C5C5C;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+footer .widget_bory{
+    line-height: 19px;
+}
+
+footer .text_body{
+    margin-top: 20px;
+    color: #5C5C5C;
+}
+
+.contatos{
+    margin-top: 20px;
+    color: #5C5C5C;
+}
+
+.contatos span{
+    float: right;
+}
+
+.redes_sociais img{
+    width: 30px;
+    height: 30px;
+}
+
+.redes_sociais{
+    margin-top: 10px;
+}
+
+.redes_sociais img{
+    padding: 5px;
 }
